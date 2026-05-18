@@ -52,7 +52,8 @@ To combat the massive class imbalance (where healthy patients heavily outnumber 
 
 By testing different values for `C`, `penalty`, and crucially introducing **`class_weight='balanced'`**, we forced the Logistic Regression model to penalize missing a diabetic case. 
 
-**The Result:** The model successfully shifted from an ineffective baseline to capturing **1,511 True Positives**, achieving an optimal clinical sensitivity (**Recall of ~88%**).
+**The Result:** The model successfully shifted from an ineffective baseline to capturing **1,511 True Positives**
+
 
 
 ---
